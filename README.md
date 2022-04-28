@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/dom-cross-site-scripting/main/dom-cross-site-scripting.png"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/dom-based-cross-site-scripting/main/dom-based-cross-site-scripting.png"></p>
 
 An adversary may inject malicious content into HTTP requests. The content will be reflected in the HTTP response and executed in the victim's browser.
 
