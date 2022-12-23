@@ -13,12 +13,12 @@ A threat actor may inject malicious content into HTTP requests. The content is n
 Vary
 
 ## Risk
-- read & modify data
+- Read & modify data
 
 ## Redemption
-- client input validation
-- output encoding
-- browser built-in XSS preveiton
+- Client input validation
+- Output encoding
+- Browser built-in XSS preveiton
 
 ## ID
 cb251c97-067d-4f13-8195-4f918273f41b
