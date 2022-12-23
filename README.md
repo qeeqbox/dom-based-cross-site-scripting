@@ -1,13 +1,13 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/dom-based-cross-site-scripting/main/dom-based-cross-site-scripting.png"></p>
 
-An adversary may inject malicious content into HTTP requests. The content is not reflected in the HTTP response and executed in the victim's browser.
+A threat actor may inject malicious content into HTTP requests. The content is not reflected in the HTTP response and executed in the victim's browser.
 
 ## Example #1
-1. Adversary crafts an email with a malicious request to a vulnerable target and sends the email to Bob
+1. Threat actor crafts an email with a malicious request to a vulnerable target and sends the email to Bob
 2. Bob clicks on the email and sends the request to the vulnerable target
 3. The target sends the malicious code back to Bob
 4. Bob's browser inserts the malicious code
-5. When malicious code gets executed, it calls back the Adversary
+5. When malicious code gets executed, it calls back the threat actor
  
 ## Impact
 Vary
