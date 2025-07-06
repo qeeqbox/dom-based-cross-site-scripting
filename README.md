@@ -41,7 +41,8 @@ function flash_message(msg) {
 Vary
 
 ## Risk
-- Read & modify data
+- Session Hijacking
+- Credential Theft
 
 ## Redemption
 - Client input validation
