@@ -20,7 +20,7 @@ A threat actor could embed a malicious payload and send it to a victim using soc
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/dom-based-cross-site-scripting/main/content/4.png"></p>
 
 ## Code
-This logic will check the current URL for fragment identifiers. If # is part of the URL, it will pass it to the flash_message function()
+This logic will check the current URL for fragment identifiers. If # is part of the URL, it will pass it to the flash_message() function
 ```js
 jQuery(document).ready(function($) {
   if (window.location.hash) {
@@ -29,7 +29,7 @@ jQuery(document).ready(function($) {
   }
 });
 ```
-The flash_message function() embeds the user-controlled input directly into a div box without sanitizing it
+The flash_message() function embeds the user-controlled input directly into a div box without sanitizing it
 ```py
 function flash_message(msg) {
   $("#error-dialog-box").html(msg)
